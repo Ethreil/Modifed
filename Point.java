@@ -8,9 +8,9 @@ public class Point {
 		this(0,0);
 		System.out.println("Using a default constructor");
 	}
-	public Point(int inX, int y) {
+	public Point(int x, int y) {
 		if ( x >= 0)
-			this.x = inX;
+			this.x = x;
 		if (y >= 0)
 			this.y = y;
 		++counter;
